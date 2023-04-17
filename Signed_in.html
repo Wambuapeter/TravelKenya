@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Signed in</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel = "stylesheet" href="css/home.css">
+  <script src = "js/home.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" class="bg-success">
+
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:black">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="home.html">Travel Kenya</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="viewFlights.php">FLIGHTS</a></li>
+        <li><a href="viewReservations.php">VIEW RESERVATIONS</a></li>
+        <li><a href="passengerInfo.php">Book a flight</a></li>
+        <li><a href="logout.php">SIGN OUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--Signup-->
+<!--<div class="jumbotron text-center">
+<h1>Welcome! </h1>
+  <?php
+  if(isset($_SESSION['user_fname']))
+	  echo "<h3>Hi ". $_SESSION['user_fname']. "!</h3>";
+  ?>
+ </div>   
+</div>-->
+
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2><br>
+      <h4><strong>MISSION:</strong> To fly you across the world for the least price and most comfort you can dare to imagine!.</h4><br>
+      <p><strong>VISION:</strong> To be a source of convenience to all our esteemed clients!.
+      .</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>Economy</h4>
+      <p>Cost saving pass on to clients.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>LOVE</h4>
+      <p>We are you!</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>Client-based</h4>
+      <p>Customer service</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>USER experienc</h4>
+      <p>We offer you world-class services like champagne.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>CERTIFIED</h4>
+      <p>All our service men have been vetted</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4 style="color:#303030;">HARD WORK</h4>
+      <p>Tap the button to get hostels at your seats!</p>
+    </div>
+  </div>
+</div>
+<div>
+  <img src="img/ndege.png" width="100%"><br><br>
+</div>
+
+
+
+</script>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Travel Kenya</p>
+</footer>
+</body>
+</html>
+
